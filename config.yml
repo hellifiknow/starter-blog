@@ -1,5 +1,5 @@
 site:
-  baseline: "| Full Stack Software Engineer"
+  baseline: Full Stack Software Engineer
   netlify:
     cms:
       path: admin
