@@ -1,26 +1,26 @@
 site:
-  title: 'Cecil'
-  baseline: "Your blog's butler."
-  baseurl: '/'
-  canonicalurl: true
-  description: "Starter blog, with Netlify CMS."
-  paginate:
-    max: 5
-    path: 'page'
-  date:
-    format: 'j F Y'
-    timezone: 'Europe/Paris'
+  baseline: "| Full Stack Software Engineer"
   netlify:
     cms:
-      path: 'admin'
-      version: 'latest'
+      path: admin
+      version: latest
     identity:
-      version: 'v1'
+      version: v1
+  date:
+    format: j F Y
+    timezone: Europe/Paris
+  paginate:
+    max: 5
+    path: page
+  title: Jeff Conaway
+  canonicalurl: true
+  description: Blog
   fmpages:
     admin:
       layout: admin/index.html
-      title: 'Content Manager (Netlify CMS)'
+      title: Content Manager (Netlify CMS)
     redirects:
       layout: _redirects.txt
       permalink: _redirects
-theme: 'hyde'
+  baseurl: /
+theme: hyde
